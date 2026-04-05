@@ -32,7 +32,7 @@ rbac-app/
 ### 1. MySQL Database
 
 ```sql
-CREATE DATABASE rbac_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE rbac_db;
 ```
 
 Tables are **auto-created** on first server start. A default admin is also seeded automatically.
